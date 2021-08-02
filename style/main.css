@@ -22,6 +22,7 @@ font-family: 'Roboto', sans-serif
 body{
     background: var(--black-background);
     font-family: 'Poppins', sans-serif;
+    color: white;
 }
 
 header .container{
@@ -32,7 +33,7 @@ header .container{
 }
 
 header .logo{
-    margin-left:15px;
+    margin-left:10px;
     margin-top: 9px;
 
     color: var(--red-soon);
@@ -43,8 +44,9 @@ header .logo{
 header nav a{
     text-decoration: none;
     color: var(--gray-menu-font);
+
     margin: 10px;
-    
+    margin-right: 15px;
 }
 
 header nav .start{
@@ -54,4 +56,55 @@ header nav .start{
 
 header nav .other-links:hover{
     color: var(--other-links-passMouse);
+}
+
+/* main movie */
+
+.main-move{
+    font-size: 16px;
+    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-house.jpg');
+
+    height: 400px;
+    background-size: cover;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+}
+
+.main-move .description{
+    margin-top: 10px;
+    margin-bottom: 40px;
+}
+
+.title{
+    margin-top: 15px;
+
+    font-size: 40px;
+}
+
+.button{
+    background-color: rgba(0, 0, 0, .50);
+
+    border: none;
+    color: white;
+
+    margin-right: 15px;
+    padding: 15px 30px;
+    border-radius: 2%;
+
+    font-size: 12px;    
+
+    cursor: pointer;
+    transition: .3s ease all;  
+}
+
+.button:hover{
+    background-color: white;
+    color: black;
+}
+
+.button i{
+    margin-right: 8px;
 }
