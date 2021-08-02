@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root{
+    --red-soon: #E50914;
+    --black-background: #141414;
+    --gray-menu-font: #AAA;
+    --white-start-font: #FFFFFF;
+    --other-links-passMouse: #FFFFFF;
+}
+
+/* FONTE FAMILY
+
+font-family: 'Poppins', sans-serif;
+font-family: 'Roboto', sans-serif
+
+*/
+
+body{
+    background: var(--black-background);
+    font-family: 'Poppins', sans-serif;
+}
+
+header .container{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .logo{
+    margin-left:15px;
+    margin-top: 9px;
+
+    color: var(--red-soon);
+    font-family: 'Roboto', sans-serif;
+    font-size: 40px;
+}
+
+header nav a{
+    text-decoration: none;
+    color: var(--gray-menu-font);
+    margin: 10px;
+    
+}
+
+header nav .start{
+    color: var(--white-start-font);
+    font-weight: bold;
+}
+
+header nav .other-links:hover{
+    color: var(--other-links-passMouse);
+}
