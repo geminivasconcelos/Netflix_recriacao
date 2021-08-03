@@ -5,10 +5,10 @@
 }
 
 :root{
-    --red-soon: #E50914;
-    --black-background: #141414;
+    --red-soon: #b390eb;
+    --black-background: #101011;
     --gray-menu-font: #AAA;
-    --white-start-font: #FFFFFF;
+    --white-start-font: #B390EB;
     --other-links-passMouse: #FFFFFF;
 }
 
@@ -62,9 +62,10 @@ header nav .other-links:hover{
 
 .main-move{
     font-size: 16px;
-    background: linear-gradient(rgba(0, 0, 0, .50), rgba(0, 0, 0, .50)100%), url('/img/capa-house.jpg');
+    background: url('/img/capa3.jpg');
 
-    height: 400px;
+    height: 530px; 
+    width: auto; 
     background-size: cover;
 
     display: flex;
@@ -92,7 +93,7 @@ header nav .other-links:hover{
 
     margin-right: 15px;
     padding: 15px 30px;
-    border-radius: 2%;
+    border-radius: 5%;
 
     font-size: 12px;    
 
@@ -107,4 +108,21 @@ header nav .other-links:hover{
 
 .button i{
     margin-right: 8px;
+}
+
+.main-move .container{
+    width: 70%;
+
+    margin-left: 45px;
+}
+
+.box-movie{
+    height: 100%;
+    width: 100%;
+    display: block;
+    cursor: pointer;
+}
+
+.carousel-movie{
+    margin-top: 5px;
 }

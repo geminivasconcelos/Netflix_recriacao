@@ -4,22 +4,30 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
     <link rel="stylesheet" href="./style/main.css">
+    <link rel="stylesheet" href="style/responsive.css">
     
     <!-- font family -->
     <link href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto:wght@500&display=swap" rel="stylesheet">
      
-    <title>NETFLIX CLONE</title>
+    <!-- owl css -->
+    <link rel="stylesheet" href="style/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="style/owl/owl.theme.default.min.css">
+
+    <title>
+        CODERFLIX
+    </title>
 </head>
 <body>
     <header>
         <div class="container">
-            <h2 class="logo">NETFLIX</h2>
+            <h2 class="logo">CODERFLIX</h2>
             <nav>
                 <a class="start" href="#">Início</a>
-                <a class="other-links" href="#">Séries</a>
-                <a class="other-links" href="#">Filmes</a>
-                <a class="other-links" href="#">Documentarios</a>
+                <a class="other-links" href="#">Linguagens</a>
+                <a class="other-links" href="#">Aulas</a>
+                <a class="other-links" href="#">Canais Youtube</a>
             </nav>
         </div>
     </header>
@@ -27,8 +35,8 @@
     <main>
         <div class="main-move">
             <div class="container">
-                <h3 class="title">HOUSE OF CARDS</h3>
-                <p class="description">Com Frank fora da jogada, Claire Underwood pode exercer todo seu poder como a primeira presisente mulher dos Estados Unidos. Mas poderosos inimigos estão à espreita.</p>
+                <h3 class="title">HTML CSS JAVASCRIPT</h3>
+                <p class="description">A base da programação Front-End é o tripé: HTML + CSS + Javascript. Estas três linguagens de programação se completam e juntas elas trabalham de forma uniforme, como se fossem um ser humano perfeito.</p>
                 
                 <div class="buttons">
                     <button role="button" class="button">
@@ -44,7 +52,39 @@
         </div>
     </main>
 
-    <script src="https://kit.fontawesome.com/79fc2c52fe.js" crossorigin="anonymous"></script>
+    <div class="carousel-movie">
+        <div class="owl-carousel owl-theme">
+            <div class="item">
+                <img class="box-movie" src="img/css.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/html.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/node.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/angular0.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/react.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/js.png" alt="">
+            </div>
+            <div class="item">
+                <img class="box-movie" src="img/python.png" alt="">
+            </div>
+
+
+        </div>     
+    </div>
+
+
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/owl/setup.js"></script>
 
 </body>
 </html>
